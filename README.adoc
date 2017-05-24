@@ -2,7 +2,7 @@ Learn a new language: JAVA
 
 API Endpoints:
 
-# Start with `http://sean-guitar-crud-java.herokuapp.com`
+* All routes start with "http://sean-guitar-crud-java.herokuapp.com"
 
 ## Get all guitars
 `GET ~/guitars/`
@@ -11,10 +11,10 @@ API Endpoints:
 `GET ~/guitars/{ id }`
 
 ## Find guitar by brand
-`GET ~/guitars/find/fender`   /* NOT case sensitive */
+`GET ~/guitars/find/fender`   * NOT case sensitive
 
 ## Add a guitar
-`POST ~/guitars brand="Gibson" model="Les Paul"
+`POST ~/guitars brand="Gibson" model="Les Paul"`
 
 ## Delete a guitar
 `DELETE ~/guitars/1`
