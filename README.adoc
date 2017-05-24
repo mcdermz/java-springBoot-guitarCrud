@@ -1,1 +1,22 @@
 Learn a new language: JAVA
+
+API Endpoints:
+
+### Starting with "http://sean-guitar-crud-java.herokuapp.com"
+
+## Get all guitars
+GET ~/guitars/
+
+## Find guitar by ID
+GET ~/guitars/{ id }
+
+## Find guitar by brand
+GET ~/guitars/find/fender   /* NOT case sensitive */
+
+## Add a guitar
+POST ~/guitars brand="Gibson" model="Les Paul"
+
+## Delete a guitar
+DELETE ~/guitars/1
+
+
